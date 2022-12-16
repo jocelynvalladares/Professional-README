@@ -1,34 +1,28 @@
-<h1 align="center">README generator using node.js 👋</h1>
-  
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
-## Description
-🔍 use node.js to generate a README.md file to the dist directory
-<iframe src="https://drive.google.com/file/d/10ZJNPHlUynbSxD6hkXHV4uMIrjtPZBHl/preview" width="640" height="480"></iframe>
-## Table of Contents
-- [Description](#description)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [Questions](#questions)
-## Installation
-💾 npm install inquirer also required
-## Usage
-💻 coding bootcamp class assignment
-## License
-![badge](https://img.shields.io/badge/license-MIT-brightgreen)
-<br />
-This application is covered by the MIT license. 
-## Contributing
-👪 jocelyn valladares
-## Tests
-✏️ no test 
-## Questions
-✋ email me or reachout on github<br />
-<br />
-:octocat: Find me on GitHub: [jocelynvalladares](https://github.com/jocelynvalladares)<br />
-<br />
-✉️ Email me with any questions: jocelynvalladares933@gmail.com<br /><br />
-_This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
-    
+The application will be invoked by using the following command:
+
+node index.js
+
+User Story
+
+AS A developer
+I WANT a README generator
+SO THAT I can quickly create a professional README for a new project
+
+
+Acceptance Criteria
+
+GIVEN a command-line application that accepts user input
+WHEN I am prompted for information about my application repository
+THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+WHEN I enter my project title
+THEN this is displayed as the title of the README
+WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
+THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
+WHEN I choose a license for my application from a list of options
+THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
+WHEN I enter my GitHub username
+THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
+WHEN I enter my email address
+THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
+WHEN I click on the links in the Table of Contents
+THEN I am taken to the corresponding section of the README
