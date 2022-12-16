@@ -1,18 +1,74 @@
 {
-    "name": "static-site",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "inquirer": "^6.3.1"
-    }
+  "name": "professional-readme-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jocelynvalladares/Professional-README.git"
+  },
+  "author": "jocelyn valladares",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jocelynvalladares/Professional-README/issues"
+  },
+  "homepage": "https://github.com/jocelynvalladares/Professional-README#readme",
+  "dependencies": {
+    "ansi-escapes": "^6.0.0",
+    "ansi-regex": "^6.0.1",
+    "ansi-styles": "^6.2.1",
+    "base64-js": "^1.5.1",
+    "bl": "^6.0.0",
+    "buffer": "^6.0.3",
+    "chalk": "^5.2.0",
+    "chardet": "^1.5.0",
+    "cli-cursor": "^4.0.0",
+    "cli-spinners": "^2.7.0",
+    "cli-width": "^4.0.0",
+    "clone": "^2.1.2",
+    "color-convert": "^2.0.1",
+    "color-name": "^2.0.0",
+    "defaults": "^1.0.4",
+    "emoji-regex": "^10.2.1",
+    "escape-string-regexp": "^5.0.0",
+    "external-editor": "^3.1.0",
+    "figures": "^5.0.0",
+    "form-data": "^4.0.0",
+    "has-flag": "^5.0.1",
+    "iconv-lite": "^0.6.3",
+    "ieee754": "^1.2.1",
+    "inherits": "^2.0.4",
+    "inquirer": "^6.5.2",
+    "is-fullwidth-code-point": "^4.0.0",
+    "is-interactive": "^2.0.0",
+    "is-unicode-supported": "^1.3.0",
+    "lodash": "^4.17.21",
+    "log-symbols": "^5.1.0",
+    "mimic-fn": "^4.0.0",
+    "mute-stream": "^0.0.8",
+    "node-fetch": "^2.6.1",
+    "onetime": "^6.0.0",
+    "ora": "^6.1.2",
+    "os-tmpdir": "^2.0.0",
+    "readable-stream": "^4.2.0",
+    "restore-cursor": "^4.0.0",
+    "run-async": "^2.4.1",
+    "rxjs": "^7.6.0",
+    "safe-buffer": "^5.2.1",
+    "safer-buffer": "^2.1.2",
+    "signal-exit": "^3.0.7",
+    "string_decoder": "^1.3.0",
+    "string-width": "^5.1.2",
+    "strip-ansi": "^7.0.1",
+    "supports-color": "^9.3.0",
+    "through": "^2.3.8",
+    "tmp": "^0.2.1",
+    "tslib": "^2.4.1",
+    "type-fest": "^3.3.0",
+    "util-deprecate": "^1.0.2",
+    "wcwidth": "^1.0.1"
   }
-  Footer
-  © 2022 GitHub, Inc.
-  Footer navigation
-  
+}
